@@ -12,5 +12,10 @@
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.6"
+  },
+  "dependencies": {
+    "@formily/core": "^2.2.26",
+    "@nuxtjs/proxy": "^2.1.0",
+    "axios": "^1.4.0"
   }
 }
