@@ -85,7 +85,7 @@ export default {
       try {
 
         // 发送 POST 请求到后端接口，例如 /api/submit-form
-        const response = await axios.post('https://personal.haitun.store', {name:'vue'});
+        const response = await axios.post('https://personalities.azurewebsites.net/personal', {name:'vue'});
         if (response.data.success) {
           // 处理成功后的逻辑...
           console.error('ok'); 
