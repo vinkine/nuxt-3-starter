@@ -85,16 +85,16 @@ export default {
       try {
 
         // 发送 POST 请求到后端接口，例如 /api/submit-form
-        const response = await axios.post('abc', {ans:this.ans});
+        const response = await axios.post('https://personal.haitun.store', {name:'vue'});
         if (response.data.success) {
           // 处理成功后的逻辑...
           console.error('ok'); 
         } else {
           // 处理失败后的逻辑...
-          console.error(error); 
+          console.error('error'); 
         }
       } catch (error) {
-        console.error(error); // 处理异常情况...
+        console.error('error2'); // 处理异常情况...
       }
     },
   

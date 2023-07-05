@@ -11,11 +11,11 @@ export default defineNuxtConfig({
       ,
       proxyHeaders: true,
       proxy: {
-        '/abc': {    //1
-            target: 'https://www.baidu.com',    //2
+        '/hello': {    //1
+            target: 'https://personal.haitun.store',    //2
             changOrigin: true,
             pathRewrite: {    //3
-                '^/abc': ''
+                '^/hello': ''
             }
         }
     }  
